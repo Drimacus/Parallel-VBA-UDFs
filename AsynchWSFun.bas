@@ -180,7 +180,7 @@ Public Sub timedThread()
         
         ' Close all Computations
         Dim c As Computation, d As Variant, sent As Boolean
-        sent = True
+        sent = False
         For Each d In mCalcManager.Keys
             Set c = mCalcManager.Item(d)
             c.closed = True
