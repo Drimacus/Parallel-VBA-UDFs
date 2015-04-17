@@ -29,7 +29,7 @@ Implements IAsyncWSFun
 
 ' Let me know if you want IP to be permissioned for use with the below key
 ' This key allows only a limited ammount of requests
-'Private Const API_KEY = "AIzaSyD30Rzk5th-lZtgX4yHS7RVPdK0sxJ5D58"
+
 Private Const API_KEY = ""
 Private Const MAX_REQ = 100
 
